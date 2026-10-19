@@ -1,0 +1,17 @@
+[project]
+name = "grimorio"
+version = "2.0.0"
+description = "Grimorio do Rei Joaquim"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.21.2"
+]
+
+[tool.flet]
+org = "com.grimorio"
+product = "Grimorio"
+
+[tool.flet.app]
+path = "main.py"
+assets_dir = "assets"
